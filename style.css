@@ -12,10 +12,10 @@ body{
 }
 
 .hero-text{
-    color:#150089;
+    color:#c0c8e4;
     position: absolute;
-    text-align: center;
-    top: 50px;
+    text-align:center;
+    top: 140px;
     width: 100%;
     font-size: 6rem;
 }
@@ -36,7 +36,7 @@ nav a {
     padding: 15px 0px;
     font-weight: bold;
     text-align: center;
-    color: #150089;
+    color: #9b94c4;
 }
 
 nav a:hover{
@@ -57,6 +57,7 @@ nav a:active{
     height: 325px;
     margin:auto;
     margin-top: 130px;
+    background-color: #c0c8e4;
 }
 
 .gap-image{
@@ -70,7 +71,7 @@ nav a:active{
 
 .gap-text{
     text-align:center;
-    color: #150089;
+    color: #c0c8e4;
     font-size: 4rem;
 }
 
@@ -85,11 +86,32 @@ nav a:active{
 }
 
 .card{
-    background-color:#dce1f3;
+    margin-left: 200px;
+    background-color:#c0c8e4;
     width: 180px;;
 }
 
 .card-text{
     text-align: center;
     color:#f3f2ea;
+}
+
+.card-img{
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.link{
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    padding: 15px 0px;
+    font-weight: bold;
+    text-align: center;
+    color: #f3f2ea;
+    margin-left: 32px;
+}
+
+.link:hover{
+    color: #fffd8c;
 }
