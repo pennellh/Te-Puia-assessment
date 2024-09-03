@@ -115,3 +115,14 @@ nav a:active{
 .link:hover{
     color: #fffd8c;
 }
+
+.image{
+    width: 541px;
+}
+
+.footer{
+    color:#f3f2ea;
+    background-color: #c0c8e4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
