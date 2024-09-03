@@ -1,5 +1,6 @@
 body{
-    background-color: #bebebe;
+    background-color: #f3f2ea;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .hero-image{
@@ -25,7 +26,7 @@ img{
 }
 
 nav{
-    background-color: #bebcbc;
+    background-color: #f1efe0
 }
 
 nav a {
@@ -39,12 +40,12 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #bebebc;
-    color: rgb(82, 100, 180);
+    background-color: #dbdbba;
+    color: rgb(28, 54, 172);
 }
 
 nav a:active{
-    background-color: #afaeae;
+    background-color: #d1cfb9;
     color: #503dbb;
 }
 
@@ -53,15 +54,42 @@ nav a:active{
     grid-template-columns: 1fr 2fr;
     gap: 50px;
     width: 90%;
+    height: 325px;
     margin:auto;
-    margin-top: 40px;
+    margin-top: 130px;
 }
 
-.two-colum{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+.gap-image{
+    background-image: url("./Te\ Puia\ Resources/20240626_111926.jpg") ;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 250px;
+}
+
+.gap-text{
+    text-align:center;
+    color: #150089;
+    font-size: 4rem;
+}
+
+.three-colum{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     width: 90%;
-    margin:auto;
+    margin: auto;
     margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color:#dce1f3;
+    width: 180px;;
+}
+
+.card-text{
+    text-align: center;
+    color:#f3f2ea;
 }
