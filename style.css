@@ -3,6 +3,10 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+/*------------------------------------*\
+  #Hero image & other images
+\*------------------------------------*/
+
 .hero-image{
     background-image: url("./Te\ Puia\ Resources/20240626_111923.jpg") ;
     height: 352px;
@@ -20,13 +24,18 @@ body{
     font-size: 6rem;
 }
 
+
 img{
     width: 80%;
     border-radius: 5px;
 }
 
+/*------------------------------------*\
+  #The navagation bar
+\*------------------------------------*/
+
 nav{
-    background-color: #f1efe0
+    background-color: #9b94c4
 }
 
 nav a {
@@ -36,18 +45,22 @@ nav a {
     padding: 15px 0px;
     font-weight: bold;
     text-align: center;
-    color: #9b94c4;
+    color: #f3f2ea;
 }
 
 nav a:hover{
     background-color: #dbdbba;
-    color: rgb(28, 54, 172);
+    color: rgb(174, 160, 224);
 }
 
 nav a:active{
     background-color: #d1cfb9;
-    color: #503dbb;
+    color: #685bb4;
 }
+
+/*------------------------------------*\
+  #The two colums
+\*------------------------------------*/
 
 .two-colum{
     display: grid;
@@ -59,6 +72,10 @@ nav a:active{
     margin-top: 130px;
     background-color: #c0c8e4;
 }
+
+/*------------------------------------*\
+  #gap image
+\*------------------------------------*/
 
 .gap-image{
     background-image: url("./Te\ Puia\ Resources/20240626_111926.jpg") ;
@@ -74,6 +91,10 @@ nav a:active{
     color: #c0c8e4;
     font-size: 4rem;
 }
+
+/*------------------------------------*\
+  #info cards
+\*------------------------------------*/
 
 .three-colum{
     display:grid;
@@ -113,12 +134,16 @@ nav a:active{
 }
 
 .link:hover{
-    color: #fffd8c;
+    color: #8162bb;
 }
 
 .image{
     width: 541px;
 }
+
+
+
+
 
 .footer{
     color:#f3f2ea;
